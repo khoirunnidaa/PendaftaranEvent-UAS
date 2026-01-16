@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pendaftaran Event Kampus</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+  <h1>Personal Branding di Era Digital</h1>
+   <p>The Power Of Personal Branding In The Digital Era</h1>
+  <p>Seminar ini bertujuan untuk memotivasi peserta dengan pemahaman mendalam tentang pentingnya membangun citra diri yang kuat di Dunia Digital yang semakin kompetitif. Peserta akan mempelajari strategi praktis, untuk meningkatkan kredibilitas profesional dan membuka peluang karir yang lebih luas</p>
+  <ul>
+    <li><strong>Tanggal:</strong> 20 Februari 2026 </li> <li><strong>📍Lokasi:</strong> Aula Kampus</li>
+  </ul>
+</header>
+
+<div class="container">
+  <div class="card">
+    <h2>Form Pendaftaran</h2>
+    <form id="formDaftar">
+      <label>Nama Lengkap</label>
+      <input type="text" id="nama">
+
+      <label>Email</label>
+      <input type="text" id="email">
+
+      <label>Nomor HP</label>
+      <input type="text" id="hp">
+
+      <label>Kategori Peserta</label>
+      <select id="kategori">
+        <option value="">-- Pilih --</option>
+        <option value="Mahasiswa">Mahasiswa</option>
+        <option value="Umum">Umum</option>
+      </select>
+
+      <button type="submit" id="btnDaftar">Daftar</button>
+      <div class="message" id="message"></div>
+    </form>
+
+    <p>Jumlah peserta terdaftar: <span id="jumlah">0</span> / 50</p>
+  </div>
+
+  <div class="card">
+    <h2>Daftar Peserta</h2>
+    <ul id="listPeserta"></ul>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+    <footer>
+     <p>© 2026 Kampus Teknologi.@Stikom_ElRahma_</p>
+    </footer>
+</body>
+</html>
